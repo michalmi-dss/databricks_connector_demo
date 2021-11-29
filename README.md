@@ -5,7 +5,7 @@ Repository with manual and test code on purpose of tutorial how to connect with 
 
 prepare your enviroment:
 1. Install Python with version corresponding with cluaster you want to connect [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#requirements)
-2. "Venv" (Virtual environment) will help you separetes enviroments (or other e.g coda) [link](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-packages-using-pip-and-virtual-environments)
+2. "Venv" (Virtual environment) will help you separetes enviroments (or other e.g conda) [link](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-packages-using-pip-and-virtual-environments)
 3. JRE need to be installed - for spark (sudo apt install default-jre)
 4. Configure connection with your git repository (GitHub, ADO, etc) via https or [ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) 
 
