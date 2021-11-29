@@ -75,3 +75,14 @@ dbutils = DBUtils(spark)
 
 Scala/Java: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#intellij-scala-or-java)
 R: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#--sparklyr-and-rstudio-desktop)
+
+## You can use "Repos" feature on DB to work with your code on DB Workspce
+
+[Manual](https://docs.microsoft.com/en-us/azure/databricks/repos)
+
+To see your python files from git repository in Databricks workspace it has to be in "notebook" format.  
+Just add on top of your file:
+```python
+# Databricks notebook source
+```
+See examples in this repo.
