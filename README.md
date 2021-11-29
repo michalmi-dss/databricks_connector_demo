@@ -76,7 +76,7 @@ dbutils = DBUtils(spark)
 Scala/Java: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#intellij-scala-or-java)
 R: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#--sparklyr-and-rstudio-desktop)
 
-## You can use "Repos" feature on DB to work with your code on DB Workspce
+## You can use "Repos" feature to work with your code on DB Workspce
 
 [Manual](https://docs.microsoft.com/en-us/azure/databricks/repos)
 
