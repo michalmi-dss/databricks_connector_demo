@@ -52,7 +52,7 @@ How to do that in VSC:
 2. Point to python executable file in created venv
 ![selected interpreter](/image/python37_venv_interpreter.png)
 3. Ready you are connected!
-4. Run ./test.py code
+4. Simply run ./python_test_code.py code for test
 
 ## Access to DBUtils
 
