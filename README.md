@@ -1,7 +1,7 @@
-# databricks_connector_demo
+# Databricks Connector Demo
 Repository with manual and test code on purpose of tutorial how to connect with databricks cluster
 
-## requirements
+## Requirements
 
 prepare your enviroment:
 1. Install Python with version corresponding with cluaster you want to connect [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#requirements)
@@ -9,7 +9,7 @@ prepare your enviroment:
 3. JRE need to be installed - for spark (sudo apt install default-jre)
 4. Configure connection with your git repository (GitHub, ADO, etc) via https or [ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) 
 
-## connect to databricks
+## Connect to databricks
 
 ![Configuration params from url](/image/configuration_from_link.png)
 
@@ -53,3 +53,24 @@ How to do that in VSC:
 ![selected interpreter](/image/python37_venv_interpreter.png)
 3. Ready you are connected!
 4. Run ./test.py code
+
+## Access to DBUtils
+
+1. install six package
+```bash
+pip install six
+```
+2. create dbutils object
+```python
+from pyspark.dbutils import DBUtils
+dbutils = DBUtils(spark)
+```
+
+## Limitation
+
+[List of limitation](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#limitations)
+
+## You can run Scala and R code as well!
+
+Scala/Java: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#intellij-scala-or-java)
+R: [link](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#--sparklyr-and-rstudio-desktop)
