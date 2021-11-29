@@ -53,6 +53,11 @@ How to do that in VSC:
 ![selected interpreter](/image/python37_venv_interpreter.png)
 3. Ready you are connected!
 4. Simply run ./python_test_code.py code for test
+5. You need to create spark session:
+```python
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+```
 
 ## Access to DBUtils
 
