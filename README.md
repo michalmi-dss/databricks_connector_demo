@@ -11,7 +11,7 @@ prepare your enviroment:
 
 ## Connect to databricks
 
-![Configuration params from url](/image/configuration_from_link.png)
+![Configuration params from url](/image/configuration_from_link2.png)
 
 1. Create [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) and activate it
 2. Install databricks connector in corresponding with your cluster version ([mapping](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect#requirements))
