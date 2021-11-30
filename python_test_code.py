@@ -3,6 +3,8 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.getOrCreate()
 
+# test 
+
 databases = spark.sql("""
 show databases;
 """).collect()
