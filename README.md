@@ -23,7 +23,7 @@ pip install -U "databricks-connect==7.3.*")
 databricks-connect configure
 ```
 Provide all prompted info. All info you can find in cluster url (above) and how to get personal token you can find [here](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication#--generate-a-personal-access-token)  
-Default port number is 15001.
+Default port number is 15001.  
 4. Test your connection
 ```bash
 databricks-connect test
